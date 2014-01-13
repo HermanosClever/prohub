@@ -1,4 +1,6 @@
-prohub
+ProHub
 ======
 
-A simple hub to keep track of pojects.
+A simple hub to keep track of projects.
+
+
