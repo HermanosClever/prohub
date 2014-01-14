@@ -67,6 +67,15 @@
       "outputAbbreviatedPath" : "\/js\/plugins.min.js",
       "fileType" : 64
     },
+    "\/css\/jquery.paperfold.css" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/css\/jquery.paperfold.css",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 16
+    },
     "\/css\/magnific\/magnific-popup.css" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -116,14 +125,16 @@
       "initialSize" : 3318,
       "fileType" : 8192
     },
-    "\/css\/main.css" : {
+    "\/css\/layout\/v1\/logo-prohub.png" : {
       "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
+      "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/css\/main.css",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 16
+      "inputAbbreviatedPath" : "\/css\/layout\/v1\/logo-prohub.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/css\/layout\/v1\/logo-prohub.png",
+      "initialSize" : 1297,
+      "fileType" : 8192
     },
     "\/js\/plugins.min.js" : {
       "ignoreWasSetByUser" : 0,
@@ -136,16 +147,16 @@
       "outputAbbreviatedPath" : "\/js\/plugins.min.min.js",
       "fileType" : 64
     },
-    "\/css\/layout\/v1\/logo-prohub.png" : {
+    "\/js\/plugins\/parsley.js" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/css\/layout\/v1\/logo-prohub.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/css\/layout\/v1\/logo-prohub.png",
-      "initialSize" : 1297,
-      "fileType" : 8192
+      "inputAbbreviatedPath" : "\/js\/plugins\/parsley.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 0,
+      "outputAbbreviatedPath" : "\/js\/plugins\/parsley.min.js",
+      "fileType" : 64
     },
     "\/apple-touch-icon-72x72-precomposed.png" : {
       "ignoreWasSetByUser" : 0,
@@ -167,16 +178,14 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/js\/plugins\/parsley.js" : {
+    "\/css\/main.css" : {
       "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/js\/plugins\/parsley.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 0,
-      "outputAbbreviatedPath" : "\/js\/plugins\/parsley.min.js",
-      "fileType" : 64
+      "inputAbbreviatedPath" : "\/css\/main.css",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 16
     },
     "\/js\/vendor\/jquery-1.10.1.min.js" : {
       "ignoreWasSetByUser" : 0,
@@ -200,17 +209,6 @@
       "outputAbbreviatedPath" : "\/js\/plugins\/jquery.slimscroll.min.min.js",
       "fileType" : 64
     },
-    "\/js\/plugins\/jquery.width_snitch.min.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/js\/plugins\/jquery.width_snitch.min.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 0,
-      "outputAbbreviatedPath" : "\/js\/plugins\/jquery.width_snitch.min.min.js",
-      "fileType" : 64
-    },
     "\/js\/plugins\/moment-with-langs.min.js" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -220,6 +218,17 @@
       "outputStyle" : 1,
       "syntaxCheckerStyle" : 0,
       "outputAbbreviatedPath" : "\/js\/plugins\/moment-with-langs.min.min.js",
+      "fileType" : 64
+    },
+    "\/js\/plugins\/jquery.width_snitch.min.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/js\/plugins\/jquery.width_snitch.min.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 0,
+      "outputAbbreviatedPath" : "\/js\/plugins\/jquery.width_snitch.min.min.js",
       "fileType" : 64
     },
     "\/css\/chosen\/chosen.min.css" : {
@@ -274,15 +283,6 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/css\/normalize.min.css" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/css\/normalize.min.css",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 16
-    },
     "\/incl\/_head.php" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -291,6 +291,15 @@
       "inputAbbreviatedPath" : "\/incl\/_head.php",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
+    },
+    "\/css\/normalize.min.css" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/css\/normalize.min.css",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 16
     },
     "\/css\/scss\/_settings.scss" : {
       "ignoreWasSetByUser" : 0,
@@ -304,17 +313,6 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/css\/chosen\/chosen-sprite@2x.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/css\/chosen\/chosen-sprite@2x.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/css\/chosen\/chosen-sprite@2x.png",
-      "initialSize" : 872,
-      "fileType" : 8192
-    },
     "\/js\/main.min.js" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -326,15 +324,15 @@
       "outputAbbreviatedPath" : "\/js\/main.min.min.js",
       "fileType" : 64
     },
-    "\/css\/layout\/v1\/logo-hermanos-clever.png" : {
+    "\/css\/chosen\/chosen-sprite@2x.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/css\/layout\/v1\/logo-hermanos-clever.png",
+      "inputAbbreviatedPath" : "\/css\/chosen\/chosen-sprite@2x.png",
       "processed" : 0,
-      "outputAbbreviatedPath" : "\/css\/layout\/v1\/logo-hermanos-clever.png",
-      "initialSize" : 1363,
+      "outputAbbreviatedPath" : "\/css\/chosen\/chosen-sprite@2x.png",
+      "initialSize" : 872,
       "fileType" : 8192
     },
     "\/css\/chosen\/chosen-sprite.png" : {
@@ -347,6 +345,28 @@
       "outputAbbreviatedPath" : "\/css\/chosen\/chosen-sprite.png",
       "initialSize" : 646,
       "fileType" : 8192
+    },
+    "\/css\/layout\/v1\/logo-hermanos-clever.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/css\/layout\/v1\/logo-hermanos-clever.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/css\/layout\/v1\/logo-hermanos-clever.png",
+      "initialSize" : 1363,
+      "fileType" : 8192
+    },
+    "\/js\/plugins\/jquery.paperfold.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/js\/plugins\/jquery.paperfold.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 0,
+      "outputAbbreviatedPath" : "\/js\/plugins\/jquery.paperfold.min.js",
+      "fileType" : 64
     },
     "\/apple-touch-icon-144x144-precomposed.png" : {
       "ignoreWasSetByUser" : 0,
@@ -390,17 +410,6 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/css\/layout\/v1\/ico-link.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/css\/layout\/v1\/ico-link.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/css\/layout\/v1\/ico-link.png",
-      "initialSize" : 410,
-      "fileType" : 8192
-    },
     "\/css\/scss\/main.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -412,6 +421,17 @@
       "outputAbbreviatedPath" : "\/css\/main.css",
       "fileType" : 4,
       "debugStyle" : 0
+    },
+    "\/css\/layout\/v1\/ico-link.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/css\/layout\/v1\/ico-link.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/css\/layout\/v1\/ico-link.png",
+      "initialSize" : 410,
+      "fileType" : 8192
     },
     "\/incl\/_menu.php" : {
       "ignoreWasSetByUser" : 0,

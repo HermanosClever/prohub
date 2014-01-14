@@ -1,5 +1,5 @@
 $(document).ready(function() {
-	var $formulario, $task, date_text, timestamp_text;
+	var $formulario, $task, date_text, timestamp_text, $time_buttons, $future_timeline;
 
 	// Responsive snitch
 	$('body._dev').width_snitch({style:{}});
@@ -18,36 +18,29 @@ $(document).ready(function() {
 
 		$(this).find('.time').text( moment( date_text , 'YYYY-MM-DD' ).lang('es').format('dddd D [de] MMMM') );
 
-
 	});
 
-	// Forms
-	/*
-	$formulario = $('.formulario');
+	// Timetravel
+	$future_timeline = $('#future');
+	$time_buttons = $('.timetravel.buttons');
 
-	$formulario.parsley({
-    namespace: 'data-parsley-'
-	});
-
-
-	$formulario.find('.field').on('blur', function(event) {
+	$time_buttons.find('.js_view_future').on('click', function(event) {
 		event.preventDefault();
-		if ( $formulario.parsley('isValid') ){
-			$(this).parents('.formulario').find('.submit').removeClass('inactive');
-		} else {
-			$(this).parents('.formulario').find('.submit').addClass('inactive');
-		}
+		$future_timeline.toggleClass('open');
+		$time_buttons.find('.js_view_future').toggle();
+		$future_timeline.find('.timeline').slideToggle(400, function(){
+			$time_buttons.find('.js_view_present').fadeToggle(400);
+		});
 	});
-	*/
 
-	// Popups
-	/*
-	$('.popup_html').magnificPopup({
-		type:'inline',
-		midClick: true,
-		closeOnBgClick: true,
-		closeBtnInside: true
+	$time_buttons.find('.js_view_present').on('click', function(event) {
+		event.preventDefault();
+		$future_timeline.toggleClass('open');
+		$time_buttons.find('.js_view_present').toggle();
+		$future_timeline.find('.timeline').slideToggle(400, function(){
+			$time_buttons.find('.js_view_future').fadeToggle(400);
+		});
 	});
-	*/
 
 });
+

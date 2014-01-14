@@ -167,6 +167,7 @@ body{
 	color:$c_btn_timetravel;
 	display:inline-block;
 	line-height:em(32);
+	outline:none;
 	padding:0 em(20);
 	position:absolute;
 	text-decoration:none;
@@ -327,10 +328,22 @@ body{
 	}
 
 //	$2.3 Future view
-.future{
-	.timeline{
-		margin-bottom:0;
+.future.view{
+	margin-top:em(-80);
+	.wrapper{
+		min-height:em(180);
 		&:before{
+			background:$c_tl_future;
+			content:'';
+			height:100%;
+			left:50%;
+			margin-left:em($m_line/-2);
+			position:absolute;
+			top:0;
+			width:em($m_line - 1);
+			z-index:2;
+			}
+		&:after{
 			border-bottom:2px dashed $c_tl_divider;
 			bottom:em(150);
 			content:'';
@@ -340,10 +353,14 @@ body{
 			width:100%;
 			z-index:1;
 			}
-		&:after{display:none;}
+		}
+	.button.present{display:none;}
+	.timeline{
+		display:none;
+		margin-bottom:0;
 		}
 	.task{
-		&:first-child{min-height:em(180*2);}
+		&:last-child{min-height:em(180*2);}
 		&:before,
 		.status{
 			background:$c_tl_future;
@@ -353,6 +370,9 @@ body{
 		.title,
 		.description{color:$c_since;}
 		.actions{display:none;}
+		}
+	&.open{
+		margin-top:0;
 		}
 	}
 

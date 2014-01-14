@@ -19,7 +19,7 @@ $project = "Blog de salud mental"
 			<!-- Main content -->
 			<section id="future" class="future view">
 				<div class="wrapper">
-					<ul class="buttons">
+					<ul class="timetravel buttons">
 						<li class="item"><button class="button present js_view_present">Volver al presente</button></li>
 						<li class="item"><button class="button future js_view_future">Ver el futuro</button></li>
 					</ul>
@@ -39,8 +39,21 @@ $project = "Blog de salud mental"
 								</ul>
 							</div>
 						</li>
+						<li class="task">
+							<div class="status pending">Pending</div>
+							<div class="date js_timestamp">
+								<time class="time" datetime="2014-01-15">15-01-2014</time>
+							</div>
+							<div class="task_data">
+								<h2 class="title">Entrega de prototipos</h2>
+								<p class="description">Primera entrega de prototipos</p>
+								<ul class="actions">
+									<li class="action"><a href="" class="download">Descargar</a></li>
+									<li class="action"><a href="">Ver online</a></li>
+								</ul>
+							</div>
+						</li>
 					</ul>
-
 
 				</div>
 			</section>
