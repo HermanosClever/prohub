@@ -171,15 +171,14 @@ body{
 	position:absolute;
 	text-decoration:none;
 	&.present{
-		right:em(20);
+		margin-left:em(70);
 		top:em(-(20+32));
 		}
 	&.future{
 		background:url(#{$theme}/ico-future-view.png) em(15) center no-repeat $c_grey;
 		bottom:em(80);
-		margin-left:em(143/-2);
+		margin-left:em(70);
 		padding-left:em(20+15);
-		left:50%;
 		z-index:4;
 		}
 	}
@@ -360,6 +359,13 @@ body{
 //	$MQ MEDIAQUERIES
 
 @media screen and (min-width:em(536)) {
+	.button{
+		&.present{right:em(30);}
+		&.future{
+			left:50%;
+			margin-left:em(143/-2);
+		}
+	}
 	.task{
 		padding-left:0;
 		&:before{margin-left:em($m_line/-2, 14);}
@@ -370,8 +376,8 @@ body{
 		.task_data{
 			display:inline-block;
 			vertical-align:top;
-			margin-right:em((38 * 2),14);
-			width:em(210,14);
+			margin-right:em(38*2,14);
+			width:em(208,14);
 			}
 		.date{text-align:right;}
 		.task_data{
