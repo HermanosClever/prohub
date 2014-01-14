@@ -17,9 +17,29 @@ $project = "Blog de salud mental"
 			<?php include 'incl/_header.php'; ?>
 
 			<!-- Main content -->
-			<section id="future" class="view">
+			<section id="future" class="future view">
 				<div class="wrapper">
+					<ul class="buttons">
+						<li class="item"><button class="button present js_view_present">Volver al presente</button></li>
+						<li class="item"><button class="button future js_view_future">Ver el futuro</button></li>
+					</ul>
 
+					<ul class="timeline">
+						<li class="task">
+							<div class="status pending">Pending</div>
+							<div class="date js_timestamp">
+								<time class="time" datetime="2014-01-15">15-01-2014</time>
+							</div>
+							<div class="task_data">
+								<h2 class="title">Entrega de prototipos</h2>
+								<p class="description">Primera entrega de prototipos</p>
+								<ul class="actions">
+									<li class="action"><a href="" class="download">Descargar</a></li>
+									<li class="action"><a href="">Ver online</a></li>
+								</ul>
+							</div>
+						</li>
+					</ul>
 
 
 				</div>
@@ -37,10 +57,11 @@ $project = "Blog de salud mental"
 							</div>
 							<div class="task_data">
 								<h2 class="title">Entrega de prototipos</h2>
-								<p class="description">Primera entrega de prototipos</p>
+								<p class="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet, quisquam temporibus ipsam nisi vero mollitia officia dolor odio quos adipisci consequatur repudiandae dolorem magni perferendis error. Optio, totam animi eum.</p>
 								<ul class="actions">
-									<li class="item"><a href="" class="download">Descargar</a></li>
-									<li class="item"><a href="">Ver online</a></li>
+									<li class="action"><a href="" class="download">Descargar</a></li>
+									<li class="action"><a href="">Ver online</a></li>
+									<li class="action"><a href="">[Layervault] Repositorio</a></li>
 								</ul>
 							</div>
 						</li>
@@ -54,8 +75,8 @@ $project = "Blog de salud mental"
 								<h2 class="title">Entrega de prototipos</h2>
 								<p class="description">Primera entrega de prototipos</p>
 								<ul class="actions">
-									<li class="item"><a href="" class="download">Descargar</a></li>
-									<li class="item"><a href="">Ver online</a></li>
+									<li class="action"><a href="" class="download">Descargar</a></li>
+									<li class="action"><a href="">Ver online</a></li>
 								</ul>
 							</div>
 						</li>

@@ -2,23 +2,23 @@
   "CodeKitInfo" : "This is a CodeKit project configuration file. It is designed to sync project settings across multiple machines. Modifying the contents of this file can be a poor life decision if you don't know what you're doing. This file is not useful unless accompanied by the project that created it in CodeKit. For more information, see: http:\/\/incident57.com\/codekit",
   "creatorBuild" : "8403",
   "files" : {
-    "\/apple-touch-icon.png" : {
+    "\/css\/layout\/v1\/ico-check-ok.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/apple-touch-icon.png",
+      "inputAbbreviatedPath" : "\/css\/layout\/v1\/ico-check-ok.png",
       "processed" : 0,
-      "outputAbbreviatedPath" : "\/apple-touch-icon.png",
-      "initialSize" : 2164,
+      "outputAbbreviatedPath" : "\/css\/layout\/v1\/ico-check-ok.png",
+      "initialSize" : 475,
       "fileType" : 8192
     },
-    "\/incl\/_js.php" : {
+    "\/index.php" : {
       "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
+      "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/incl\/_js.php",
+      "inputAbbreviatedPath" : "\/index.php",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
@@ -74,6 +74,17 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 16
     },
+    "\/css\/layout\/v1\/bigote-hermanos-clever.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/css\/layout\/v1\/bigote-hermanos-clever.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/css\/layout\/v1\/bigote-hermanos-clever.png",
+      "initialSize" : 446,
+      "fileType" : 8192
+    },
     "\/incl\/_tag.php" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -103,27 +114,14 @@
       "initialSize" : 3318,
       "fileType" : 8192
     },
-    "\/css\/layout\/v1\/logo-prohub.png" : {
+    "\/css\/main.css" : {
       "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/css\/layout\/v1\/logo-prohub.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/css\/layout\/v1\/logo-prohub.png",
-      "initialSize" : 1297,
-      "fileType" : 8192
-    },
-    "\/js\/plugins\/parsley.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/js\/plugins\/parsley.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 0,
-      "outputAbbreviatedPath" : "\/js\/plugins\/parsley.min.js",
-      "fileType" : 64
+      "inputAbbreviatedPath" : "\/css\/main.css",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 16
     },
     "\/js\/plugins.min.js" : {
       "ignoreWasSetByUser" : 0,
@@ -136,6 +134,26 @@
       "outputAbbreviatedPath" : "\/js\/plugins.min.min.js",
       "fileType" : 64
     },
+    "\/js\/plugins\/parsley.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/js\/plugins\/parsley.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 0,
+      "outputAbbreviatedPath" : "\/js\/plugins\/parsley.min.js",
+      "fileType" : 64
+    },
+    "\/incl\/_popups.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/incl\/_popups.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
     "\/apple-touch-icon-72x72-precomposed.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -147,23 +165,16 @@
       "initialSize" : 2437,
       "fileType" : 8192
     },
-    "\/incl\/_popups.php" : {
+    "\/css\/layout\/v1\/logo-prohub.png" : {
       "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
+      "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/incl\/_popups.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
-    "\/css\/main.css" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/css\/main.css",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 16
+      "inputAbbreviatedPath" : "\/css\/layout\/v1\/logo-prohub.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/css\/layout\/v1\/logo-prohub.png",
+      "initialSize" : 1297,
+      "fileType" : 8192
     },
     "\/js\/vendor\/jquery-1.10.1.min.js" : {
       "ignoreWasSetByUser" : 0,
@@ -209,15 +220,6 @@
       "outputAbbreviatedPath" : "\/js\/plugins\/jquery.slimscroll.min.min.js",
       "fileType" : 64
     },
-    "\/css\/chosen\/chosen.min.css" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/css\/chosen\/chosen.min.css",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 16
-    },
     "\/js\/main.js" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -228,6 +230,15 @@
       "syntaxCheckerStyle" : 0,
       "outputAbbreviatedPath" : "\/js\/main.min.js",
       "fileType" : 64
+    },
+    "\/css\/chosen\/chosen.min.css" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/css\/chosen\/chosen.min.css",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 16
     },
     "\/css\/scss\/_print.scss" : {
       "ignoreWasSetByUser" : 0,
@@ -291,17 +302,6 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/js\/main.min.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/js\/main.min.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 0,
-      "outputAbbreviatedPath" : "\/js\/main.min.min.js",
-      "fileType" : 64
-    },
     "\/css\/chosen\/chosen-sprite@2x.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -313,16 +313,16 @@
       "initialSize" : 872,
       "fileType" : 8192
     },
-    "\/css\/chosen\/chosen-sprite.png" : {
+    "\/js\/main.min.js" : {
       "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/css\/chosen\/chosen-sprite.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/css\/chosen\/chosen-sprite.png",
-      "initialSize" : 646,
-      "fileType" : 8192
+      "inputAbbreviatedPath" : "\/js\/main.min.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 0,
+      "outputAbbreviatedPath" : "\/js\/main.min.min.js",
+      "fileType" : 64
     },
     "\/css\/layout\/v1\/logo-hermanos-clever.png" : {
       "ignoreWasSetByUser" : 0,
@@ -333,6 +333,17 @@
       "processed" : 0,
       "outputAbbreviatedPath" : "\/css\/layout\/v1\/logo-hermanos-clever.png",
       "initialSize" : 1363,
+      "fileType" : 8192
+    },
+    "\/css\/chosen\/chosen-sprite.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/css\/chosen\/chosen-sprite.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/css\/chosen\/chosen-sprite.png",
+      "initialSize" : 646,
       "fileType" : 8192
     },
     "\/apple-touch-icon-144x144-precomposed.png" : {
@@ -377,6 +388,17 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
+    "\/css\/layout\/v1\/ico-link.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/css\/layout\/v1\/ico-link.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/css\/layout\/v1\/ico-link.png",
+      "initialSize" : 410,
+      "fileType" : 8192
+    },
     "\/css\/scss\/main.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -388,17 +410,6 @@
       "outputAbbreviatedPath" : "\/css\/main.css",
       "fileType" : 4,
       "debugStyle" : 0
-    },
-    "\/css\/layout\/v1\/ico-link.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/css\/layout\/v1\/ico-link.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/css\/layout\/v1\/ico-link.png",
-      "initialSize" : 410,
-      "fileType" : 8192
     },
     "\/incl\/_menu.php" : {
       "ignoreWasSetByUser" : 0,
@@ -451,16 +462,14 @@
       "initialSize" : 3209,
       "fileType" : 8192
     },
-    "\/js\/plugins\/jquery.magnific-popup.min.js" : {
+    "\/incl\/_js.php" : {
       "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/js\/plugins\/jquery.magnific-popup.min.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 0,
-      "outputAbbreviatedPath" : "\/js\/plugins\/jquery.magnific-popup.min.min.js",
-      "fileType" : 64
+      "inputAbbreviatedPath" : "\/incl\/_js.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
     },
     "\/apple-touch-icon-precomposed.png" : {
       "ignoreWasSetByUser" : 0,
@@ -473,24 +482,26 @@
       "initialSize" : 2164,
       "fileType" : 8192
     },
-    "\/index.php" : {
+    "\/js\/plugins\/jquery.magnific-popup.min.js" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/index.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
+      "inputAbbreviatedPath" : "\/js\/plugins\/jquery.magnific-popup.min.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 0,
+      "outputAbbreviatedPath" : "\/js\/plugins\/jquery.magnific-popup.min.min.js",
+      "fileType" : 64
     },
-    "\/css\/layout\/v1\/ico-check-ok.png" : {
+    "\/apple-touch-icon.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/css\/layout\/v1\/ico-check-ok.png",
+      "inputAbbreviatedPath" : "\/apple-touch-icon.png",
       "processed" : 0,
-      "outputAbbreviatedPath" : "\/css\/layout\/v1\/ico-check-ok.png",
-      "initialSize" : 475,
+      "outputAbbreviatedPath" : "\/apple-touch-icon.png",
+      "initialSize" : 2164,
       "fileType" : 8192
     }
   },

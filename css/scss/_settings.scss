@@ -86,21 +86,24 @@
 $c_white:#fff;
 $c_black:#000;
 $c_grey: #333;
+$c_clever:#a9e81e;
 
 $c_project: mix($c_grey,$c_white,40%);
 $c_title: mix($c_grey,$c_white,30%);
-$c_text: #B3B3B3;
+$c_text: #b3b3b3;
 $c_link: #057;
 $c_btn: mix($c_black,$c_grey,5%);
-$c_btn_hover: #00B5B5;
+$c_btn_hover: #00b5b5;
+$c_btn_timetravel:mix($c_white,$c_grey,20%);
 
 $c_header:mix($c_black,$c_grey,30%);
 $c_tl:mix($c_black,$c_grey,30%);
 $c_tl_future: mix($c_black,$c_grey,10%);
+$c_tl_divider: mix($c_black,$c_grey,5%);
 $c_date: mix($c_grey,$c_white,70%);
 $c_since: mix($c_grey,$c_white,90%);
 $c_tl_btn_text: mix($c_grey,$c_white,80%);
-$c_task: #F1654C;
+$c_task: #f1654c;
 $c_checked: $c_btn_hover;
 
 $c_alert:#dd3519;
@@ -108,11 +111,12 @@ $c_alert_text:#aa6b17;
 
 // dimension
 $m_sitewidth: 960;
-$m_radius:5px;
+$m_radius:3px;
 $m_line:4;
 $m_task:45;
 $m_btn_h:20;
 $m_tl_btn_h:32;
+$m_task_offset:1;
 
 // Typos
 $f_base: arial, sans-serif;
