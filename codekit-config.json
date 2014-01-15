@@ -2,26 +2,35 @@
   "CodeKitInfo" : "This is a CodeKit project configuration file. It is designed to sync project settings across multiple machines. Modifying the contents of this file can be a poor life decision if you don't know what you're doing. This file is not useful unless accompanied by the project that created it in CodeKit. For more information, see: http:\/\/incident57.com\/codekit",
   "creatorBuild" : "8403",
   "files" : {
-    "\/css\/layout\/v1\/ico-check-ok.png" : {
+    "\/apple-touch-icon.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/css\/layout\/v1\/ico-check-ok.png",
+      "inputAbbreviatedPath" : "\/apple-touch-icon.png",
       "processed" : 0,
-      "outputAbbreviatedPath" : "\/css\/layout\/v1\/ico-check-ok.png",
-      "initialSize" : 475,
+      "outputAbbreviatedPath" : "\/apple-touch-icon.png",
+      "initialSize" : 2164,
       "fileType" : 8192
     },
-    "\/js\/plugins\/jquery.magnific-popup.min.js" : {
+    "\/index.php" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/js\/plugins\/jquery.magnific-popup.min.js",
+      "inputAbbreviatedPath" : "\/index.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/js\/plugins\/chosen.jquery.min.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/js\/plugins\/chosen.jquery.min.js",
       "outputStyle" : 1,
       "syntaxCheckerStyle" : 0,
-      "outputAbbreviatedPath" : "\/js\/plugins\/jquery.magnific-popup.min.min.js",
+      "outputAbbreviatedPath" : "\/js\/plugins\/chosen.jquery.min.min.js",
       "fileType" : 64
     },
     "\/css\/scss\/_reset.scss" : {
@@ -35,17 +44,6 @@
       "outputAbbreviatedPath" : "\/css\/_reset.css",
       "fileType" : 4,
       "debugStyle" : 0
-    },
-    "\/js\/plugins\/chosen.jquery.min.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/js\/plugins\/chosen.jquery.min.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 0,
-      "outputAbbreviatedPath" : "\/js\/plugins\/chosen.jquery.min.min.js",
-      "fileType" : 64
     },
     "\/incl\/_form.php" : {
       "ignoreWasSetByUser" : 0,
@@ -66,15 +64,6 @@
       "syntaxCheckerStyle" : 0,
       "outputAbbreviatedPath" : "\/js\/plugins.min.js",
       "fileType" : 64
-    },
-    "\/css\/jquery.paperfold.css" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/css\/jquery.paperfold.css",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 16
     },
     "\/css\/magnific\/magnific-popup.css" : {
       "ignoreWasSetByUser" : 0,
@@ -125,6 +114,15 @@
       "initialSize" : 3318,
       "fileType" : 8192
     },
+    "\/css\/main.css" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/css\/main.css",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 16
+    },
     "\/css\/layout\/v1\/logo-prohub.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -135,17 +133,6 @@
       "outputAbbreviatedPath" : "\/css\/layout\/v1\/logo-prohub.png",
       "initialSize" : 1297,
       "fileType" : 8192
-    },
-    "\/js\/plugins.min.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/js\/plugins.min.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 0,
-      "outputAbbreviatedPath" : "\/js\/plugins.min.min.js",
-      "fileType" : 64
     },
     "\/js\/plugins\/parsley.js" : {
       "ignoreWasSetByUser" : 0,
@@ -158,6 +145,15 @@
       "outputAbbreviatedPath" : "\/js\/plugins\/parsley.min.js",
       "fileType" : 64
     },
+    "\/incl\/_popups.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/incl\/_popups.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
     "\/apple-touch-icon-72x72-precomposed.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -169,23 +165,16 @@
       "initialSize" : 2437,
       "fileType" : 8192
     },
-    "\/incl\/_popups.php" : {
+    "\/js\/plugins.min.js" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/incl\/_popups.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
-    "\/css\/main.css" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/css\/main.css",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 16
+      "inputAbbreviatedPath" : "\/js\/plugins.min.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 0,
+      "outputAbbreviatedPath" : "\/js\/plugins.min.min.js",
+      "fileType" : 64
     },
     "\/js\/vendor\/jquery-1.10.1.min.js" : {
       "ignoreWasSetByUser" : 0,
@@ -209,17 +198,6 @@
       "outputAbbreviatedPath" : "\/js\/plugins\/jquery.slimscroll.min.min.js",
       "fileType" : 64
     },
-    "\/js\/plugins\/moment-with-langs.min.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/js\/plugins\/moment-with-langs.min.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 0,
-      "outputAbbreviatedPath" : "\/js\/plugins\/moment-with-langs.min.min.js",
-      "fileType" : 64
-    },
     "\/js\/plugins\/jquery.width_snitch.min.js" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -231,14 +209,16 @@
       "outputAbbreviatedPath" : "\/js\/plugins\/jquery.width_snitch.min.min.js",
       "fileType" : 64
     },
-    "\/css\/chosen\/chosen.min.css" : {
+    "\/js\/plugins\/moment-with-langs.min.js" : {
       "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/css\/chosen\/chosen.min.css",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 16
+      "inputAbbreviatedPath" : "\/js\/plugins\/moment-with-langs.min.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 0,
+      "outputAbbreviatedPath" : "\/js\/plugins\/moment-with-langs.min.min.js",
+      "fileType" : 64
     },
     "\/js\/main.js" : {
       "ignoreWasSetByUser" : 0,
@@ -250,6 +230,15 @@
       "syntaxCheckerStyle" : 0,
       "outputAbbreviatedPath" : "\/js\/main.min.js",
       "fileType" : 64
+    },
+    "\/css\/chosen\/chosen.min.css" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/css\/chosen\/chosen.min.css",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 16
     },
     "\/css\/scss\/_print.scss" : {
       "ignoreWasSetByUser" : 0,
@@ -283,15 +272,6 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/incl\/_head.php" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/incl\/_head.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
     "\/css\/normalize.min.css" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -300,6 +280,15 @@
       "inputAbbreviatedPath" : "\/css\/normalize.min.css",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 16
+    },
+    "\/incl\/_head.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/incl\/_head.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
     },
     "\/css\/scss\/_settings.scss" : {
       "ignoreWasSetByUser" : 0,
@@ -356,17 +345,6 @@
       "outputAbbreviatedPath" : "\/css\/layout\/v1\/logo-hermanos-clever.png",
       "initialSize" : 1363,
       "fileType" : 8192
-    },
-    "\/js\/plugins\/jquery.paperfold.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/js\/plugins\/jquery.paperfold.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 0,
-      "outputAbbreviatedPath" : "\/js\/plugins\/jquery.paperfold.min.js",
-      "fileType" : 64
     },
     "\/apple-touch-icon-144x144-precomposed.png" : {
       "ignoreWasSetByUser" : 0,
@@ -484,6 +462,15 @@
       "initialSize" : 3209,
       "fileType" : 8192
     },
+    "\/incl\/_js.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/incl\/_js.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
     "\/apple-touch-icon-precomposed.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -495,33 +482,26 @@
       "initialSize" : 2164,
       "fileType" : 8192
     },
-    "\/incl\/_js.php" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/incl\/_js.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
-    "\/index.php" : {
+    "\/js\/plugins\/jquery.magnific-popup.min.js" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/index.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
+      "inputAbbreviatedPath" : "\/js\/plugins\/jquery.magnific-popup.min.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 0,
+      "outputAbbreviatedPath" : "\/js\/plugins\/jquery.magnific-popup.min.min.js",
+      "fileType" : 64
     },
-    "\/apple-touch-icon.png" : {
+    "\/css\/layout\/v1\/ico-check-ok.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/apple-touch-icon.png",
+      "inputAbbreviatedPath" : "\/css\/layout\/v1\/ico-check-ok.png",
       "processed" : 0,
-      "outputAbbreviatedPath" : "\/apple-touch-icon.png",
-      "initialSize" : 2164,
+      "outputAbbreviatedPath" : "\/css\/layout\/v1\/ico-check-ok.png",
+      "initialSize" : 475,
       "fileType" : 8192
     }
   },

@@ -38,8 +38,9 @@ $project = "Blog de salud mental"
 									<li class="action"><a href="">Ver online</a></li>
 								</ul>
 							</div>
-						</li>
-						<li class="task">
+						</li><!--
+
+						--><li class="task">
 							<div class="status pending">Pending</div>
 							<div class="date js_timestamp">
 								<time class="time" datetime="2014-01-15">15-01-2014</time>
@@ -77,9 +78,9 @@ $project = "Blog de salud mental"
 									<li class="action"><a href="">[Layervault] Repositorio</a></li>
 								</ul>
 							</div>
-						</li>
+						</li><!--
 
-						<li class="task">
+						--><li class="task">
 							<div class="status checked">Ok</div>
 							<div class="date js_timestamp">
 								<time class="time" datetime="2014-01-08">08-01-2014</time>
@@ -99,7 +100,7 @@ $project = "Blog de salud mental"
 				</div>
 			</section>
 
-			<?php include 'incl/_footer.php'; ?>
+			<?php //include 'incl/_footer.php'; ?>
 
 		</div>
 		<?php include 'incl/_js.php'; ?>
