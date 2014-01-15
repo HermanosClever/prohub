@@ -59,7 +59,7 @@ $project = "Proyecto"
 				</div>
 			</section>
 
-			<section id="present" class="view">
+			<section id="present" class="present view">
 				<div class="wrapper">
 
 					<ul class="timeline">
