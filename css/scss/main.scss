@@ -9,6 +9,8 @@
 //
 //	$1 LAYOUT
 //		$1.1 Header
+//		$1.2 Footer
+//		$1.3 Page
 
 //
 //	$2 CONTENT
@@ -54,6 +56,8 @@
 	top: 0;
 	z-index: 666;
 	}
+html,
+body{height:100%;}
 body{
 	background:$c_grey;
 	color:$c_text;
@@ -61,6 +65,16 @@ body{
 	font-weight:200;
 	}
 .wrapper{margin:0 em(20);}
+.logo{
+		background:url(#{$theme}/logo-prohub.png) left top no-repeat;
+		display:inline-block;
+		height:0;
+		overflow: hidden;
+		margin-top:em(-4);
+		padding-top:em(25);
+		vertical-align:middle;
+		width:em(77);
+		}
 
 //	$1.1 Header
 #header{
@@ -68,13 +82,6 @@ body{
 	margin-bottom:em(80);
 	padding:em(10) 0;
 	position:relative;
-	.logo{
-		background:url(#{$theme}/logo-prohub.png) left top no-repeat;
-		height:0;
-		overflow: hidden;
-		padding-top:em(24);
-		width:em(77);
-		}
 	.title{
 		color:$c_project;
 		font-size:em(20);
@@ -90,6 +97,7 @@ body{
 	top:50%;
 	width:em(42);
 	a{
+		background-image:url(#{$theme}/logo-hermanos-clever.png);
 		display:block;
 		height:0;
 		overflow: hidden;
@@ -99,11 +107,50 @@ body{
 
 .svg{
 	.by a{background-image:url(#{$theme}/logo-hermanos-clever.svg);}
-	#header{
-		.logo{background-image:url(#{$theme}/logo-prohub.svg);}
+	.logo{background-image:url(#{$theme}/logo-prohub.svg);}
+	}
+
+//	$1.2 Footer
+#footer{
+	background:$c_tl;
+	bottom:0;
+	font-size:em(12);
+	line-height:em(30,12);
+	left:0;
+	padding:em(10,12) 0;
+	position:absolute;
+	width:100%;
+	text-align:center;
+	.logo{
+		margin-right:em(3,12);
+		margin-top:em(-4,12);
+		padding-top:em(25,12);
+		vertical-align:middle;
+		width:em(77,12);
+		}
+	.github{display:block}
+	.fork_me{
+		background:url(#{$theme}/ico-fork-me.png) left center no-repeat;
+		color:$c_white;
+		padding-left:em(15,12);
+		text-decoration:none;
+		@include transition();
+		&:hover{color:$c_btn_hover;}
 		}
 	}
 
+.svg{
+	#footer{
+		.fork_me{background-image:url(#{$theme}/ico-fork-me.svg);}
+	}
+}
+
+//		$1.3 Page
+	.page_container{
+		padding-bottom:em(100);
+		position:relative;
+		min-height:100%;
+		}
 
 //	$2 CONTENT
 .buttons{@extend %no_list;}
@@ -131,6 +178,10 @@ body{
 		}
 	}
 .view .wrapper{position:relative;}
+
+.svg{
+	.button.future{background-image:url(#{$theme}/ico-future-view.svg);}
+}
 
 //		$2.1 Task
 .task{
@@ -202,7 +253,7 @@ body{
 		margin-bottom:em(30,14);
 		.action{
 			display:inline-block;
-			margin:0 em(10,14) em(10,14) 0;
+			margin:0 em(8,14) em(10,14) 0;
 			}
 		a{
 			background:$c_btn;
@@ -277,6 +328,7 @@ body{
 
 //	$2.3 Future view
 .future.view{
+	display:none;
 	margin-top:em(-80);
 	.wrapper{
 		min-height:em(180);
@@ -320,7 +372,21 @@ body{
 		}
 	}
 
+.js .future.view{display:block;}
+
 //	$MQ MEDIAQUERIES
+@media screen and (min-width:em(370)){
+	#footer{
+		.github{
+			display:inline-block;
+			&:before{
+				content:'-';
+				display:inline-block;
+				margin:0 .75em 0 .5em;
+				}
+			}
+	}
+}
 
 @media screen and (min-width:em(536)) {
 	.button{

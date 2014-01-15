@@ -1,7 +1,7 @@
 <?php
-$page = 'project_home _dev';
-$client = 'Grupo Consultores';
-$project = "Blog de salud mental"
+$page = 'project_home';
+$client = 'Cliente';
+$project = "Proyecto"
  ?>
 <!DOCTYPE html>
 <?php include 'incl/_cc.php'; ?>
@@ -100,7 +100,7 @@ $project = "Blog de salud mental"
 				</div>
 			</section>
 
-			<?php //include 'incl/_footer.php'; ?>
+			<?php include 'incl/_footer.php'; ?>
 
 		</div>
 		<?php include 'incl/_js.php'; ?>
