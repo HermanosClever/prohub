@@ -2,7 +2,9 @@ $(document).ready(function() {
 	var $formulario, $task, date_text, timestamp_text, $time_buttons, $future_timeline;
 
 	// Responsive snitch
-	$('body._dev').width_snitch({style:{}});
+	if ( $('body').hasClass('_dev') ) {
+		$('body._dev').width_snitch({style:{}});
+	}
 
 	// External links
 	$('.legal a, a.ext').attr('target', '_blank');
