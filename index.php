@@ -106,6 +106,5 @@ $project = "Proyecto"
 		<?php include 'incl/_js.php'; ?>
 		<?php include 'incl/_tag.php'; ?>
 
-		<?php include 'incl/_popups.php'; ?>
 	</body>
 </html>
