@@ -351,7 +351,7 @@ body{
 			bottom:em(150);
 			content:'';
 			height:0;
-			left:em(20);
+			left:0;
 			position:absolute;
 			width:100%;
 			z-index:1;
@@ -448,6 +448,7 @@ body{
 					left:50%;
 					margin-left:#{ ($m_line / -2) }px;
 					}
+				&:after{left:2.5%;}
 				}
 			}
 		}
