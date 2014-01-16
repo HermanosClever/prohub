@@ -1,7 +1,8 @@
 <?php
 $page = 'project_home';
 $client = 'Cliente';
-$project = "Proyecto"
+$project = "Proyecto";
+$path = '';
  ?>
 <!DOCTYPE html>
 <?php include 'incl/_cc.php'; ?>
@@ -26,7 +27,7 @@ $project = "Proyecto"
 
 					<ul class="timeline">
 						<li class="task">
-							<div class="status pending">Pending</div>
+							<div class="status">Pending</div>
 							<div class="date js_timestamp">
 								<time class="time" datetime="15-02-2014">15-02-2014</time>
 							</div>
@@ -40,7 +41,7 @@ $project = "Proyecto"
 							</div>
 						</li>
 						<li class="task no_date">
-							<div class="status pending">Pending</div>
+							<div class="status">Pending</div>
 							<div class="date js_timestamp">
 								<time class="time" datetime="15-01-2014">15-01-2014</time>
 							</div>

@@ -28,7 +28,8 @@ $(document).ready(function() {
 
 	$time_buttons.find('.js_view_future').on('click', function(event) {
 		event.preventDefault();
-		$future_timeline.animate({'margin-top': 0}, 200);
+
+		$future_timeline.addClass('open').animate({'margin-top': 0}, 200);
 		$time_buttons.find('.js_view_future').toggle();
 		$future_timeline.find('.timeline').slideToggle(400, function(){
 			$time_buttons.find('.js_view_present').fadeToggle(400);
@@ -39,7 +40,7 @@ $(document).ready(function() {
 
 	$time_buttons.find('.js_view_present').on('click', function(event) {
 		event.preventDefault();
-		$future_timeline.animate({'margin-top': -80}, 100);
+		$future_timeline.removeClass('open').animate({'margin-top': -80}, 100);
 		$time_buttons.find('.js_view_present').toggle();
 		$future_timeline.find('.timeline').slideToggle(100, function(){
 

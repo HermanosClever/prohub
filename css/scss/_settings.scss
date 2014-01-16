@@ -100,10 +100,12 @@ $c_header:mix($c_black,$c_grey,30%);
 $c_tl:mix($c_black,$c_grey,30%);
 $c_tl_future: mix($c_black,$c_grey,10%);
 $c_tl_divider: mix($c_black,$c_grey,5%);
-$c_date: mix($c_grey,$c_white,70%);
-$c_since: mix($c_grey,$c_white,90%);
+$c_open_tl_divider: mix($c_black,$c_grey,10%);
+$c_date: mix($c_grey,$c_white,55%);
+$c_since: mix($c_grey,$c_white,75%);
 $c_tl_btn_text: mix($c_grey,$c_white,80%);
 $c_task: #f1654c;
+$c_inactive_task:mix($c_tl, $c_tl_future,20%);
 $c_checked: $c_btn_hover;
 
 $c_alert:#dd3519;
