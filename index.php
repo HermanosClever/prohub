@@ -28,7 +28,7 @@ $project = "Proyecto"
 						<li class="task">
 							<div class="status pending">Pending</div>
 							<div class="date js_timestamp">
-								<time class="time" datetime="2014-01-15">15-01-2014</time>
+								<time class="time" datetime="15-02-2014">15-02-2014</time>
 							</div>
 							<div class="task_data">
 								<h2 class="title">Entrega de prototipos</h2>
@@ -38,12 +38,11 @@ $project = "Proyecto"
 									<li class="action"><a href="">Ver online</a></li>
 								</ul>
 							</div>
-						</li><!--
-
-						--><li class="task">
+						</li>
+						<li class="task no_date">
 							<div class="status pending">Pending</div>
 							<div class="date js_timestamp">
-								<time class="time" datetime="2014-01-15">15-01-2014</time>
+								<time class="time" datetime="15-01-2014">15-01-2014</time>
 							</div>
 							<div class="task_data">
 								<h2 class="title">Entrega de prototipos</h2>
@@ -67,7 +66,7 @@ $project = "Proyecto"
 						<li class="task">
 							<div class="status pending">Pending</div>
 							<div class="date js_timestamp">
-								<time class="time" datetime="2014-01-15">15-01-2014</time>
+								<time class="time" datetime="15-01-2014">15-01-2014</time>
 							</div>
 							<div class="task_data">
 								<h2 class="title">Entrega de prototipos</h2>
@@ -78,12 +77,11 @@ $project = "Proyecto"
 									<li class="action"><a href="">[Layervault] Repositorio</a></li>
 								</ul>
 							</div>
-						</li><!--
-
-						--><li class="task">
+						</li>
+						<li class="task">
 							<div class="status checked">Ok</div>
 							<div class="date js_timestamp">
-								<time class="time" datetime="2014-01-08">08-01-2014</time>
+								<time class="time" datetime="08-01-2014">08-01-2014</time>
 							</div>
 							<div class="task_data">
 								<h2 class="title">Entrega de prototipos</h2>

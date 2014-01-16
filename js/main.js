@@ -14,11 +14,11 @@ $(document).ready(function() {
 	$task.find('.js_timestamp').each(function(index, el) {
 		date_text = $(this).find('.time').attr('datetime');
 
-		timestamp_text = moment( date_text , 'YYYY-MM-DD' ).lang('es').fromNow();
+		timestamp_text = moment( date_text , 'DD-MM-YYYY' ).lang('es').fromNow();
 		$(this).append( '<div class="timestamp">' + timestamp_text + '</div>' );
 
 
-		$(this).find('.time').text( moment( date_text , 'YYYY-MM-DD' ).lang('es').format('dddd D [de] MMMM') );
+		$(this).find('.time').text( moment( date_text , 'DD-MM-YYYY' ).lang('es').format('dddd D [de] MMMM') );
 
 	});
 

@@ -98,7 +98,7 @@ body{
 	top:50%;
 	width:em(42);
 	a{
-		background-image:url(#{$theme}/logo-hermanos-clever.png);
+		background:url(#{$theme}/logo-hermanos-clever.png) left top no-repeat;
 		display:block;
 		height:0;
 		overflow: hidden;
@@ -182,7 +182,7 @@ body{
 
 .svg{
 	.button.future{background-image:url(#{$theme}/ico-future-view.svg);}
-}
+	}
 
 //		$2.1 Task
 .task{
@@ -240,6 +240,7 @@ body{
 		color:$c_date;
 		text-transform:uppercase;
 		}
+	&.no_date .date{display:none;}
 	.timestamp{color:$c_since;}
 
 	.title{
@@ -401,7 +402,10 @@ body{
 			}
 		}
 	.task{
+		margin:0 auto;
+		overflow: hidden;
 		padding-left:0;
+		width:em(496,14);
 		&:before{
 			margin-left:#{ ($m_line / -2) }px;
 			}
@@ -410,13 +414,13 @@ body{
 		.status{left:50%;}
 		.date,
 		.task_data{
-			display:inline-block;
+			float:left;
 			vertical-align:top;
-			margin-right:em(36*2,14);
 			width:em(210,14);
 			}
 		.date{text-align:right;}
 		.task_data{
+			float:right;
 			margin-right:0;
 			text-align:left;
 			}
