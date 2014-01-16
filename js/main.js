@@ -1,9 +1,9 @@
 $(document).ready(function() {
-	var $formulario, $task, date_text, timestamp_text, $time_buttons, $future_timeline;
-
+	var $body, $formulario, $task, date_text, timestamp_text, $time_buttons, $future_timeline;
+	$body	= $('body');
 	// Responsive snitch
-	if ( $('body').hasClass('_dev') ) {
-		$('body._dev').width_snitch({style:{}});
+	if ( $body.hasClass('_dev') ) {
+		$body.width_snitch({style:{}});
 	}
 
 	// External links
@@ -34,8 +34,6 @@ $(document).ready(function() {
 		$future_timeline.find('.timeline').slideToggle(400, function(){
 			$time_buttons.find('.js_view_present').fadeToggle(400);
 		});
-
-
 	});
 
 	$time_buttons.find('.js_view_present').on('click', function(event) {
@@ -48,6 +46,22 @@ $(document).ready(function() {
 
 		});
 	});
+
+	// Login form
+	if ( $body.hasClass('login') ) {
+
+		$formulario = $body.find('.form');
+
+		$formulario.find('.field').label_better({
+			position: 'top',
+			animationTime:200,
+			easing: 'ease-in-out',
+			offset:20,
+			hidePlaceholderOnFocus: true
+		});
+	}
+
+	//
 
 });
 

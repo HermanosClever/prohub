@@ -18,6 +18,7 @@
 //		$2.2 Timeline
 //		$2.3 Future view
 //		$2.4 Present view
+//		$2.5 Login
 //
 //	$MQ MEDIAQUERIES
 //
@@ -382,9 +383,52 @@ body{
 .js .future.view{display:block;}
 
 //		$2.4 Present view
-.present.view{
-	padding-bottom:em(200);
-}
+.present.view{padding-bottom:em(200);}
+
+//		$2.5 Login
+.login{
+	.project_login{
+		background:url(#{$theme}/logo-hermanos-clever-m.png) center top no-repeat;
+		@extend %border_box;
+		//height:em(285);
+		//left:0;
+		//margin-top:em(285/-2);
+		margin-top:em(80);
+		padding-top:em(50+80);
+		//position:absolute;
+		//top:50%;
+		width:100%;
+		.wrapper{text-align:center;}
+		.row{
+			margin-bottom:em(70);
+			&.client{margin:0;}
+			}
+		.label{display:none;}
+		.lb_label{
+			font-size:em(18);
+			padding-left:em(10,18);
+			}
+		.field{
+			border:none;
+			border-radius:$m_radius;
+			font-size:em(18);
+			font-weight:200;
+			outline:none;
+			padding:em(10,18);
+			}
+		.title{
+			color:$c_title_client;
+			font-size:em(16);
+			font-weight:400;
+			margin:0;
+			}
+		.request_access{
+			color:$c_request;
+			font-size:em(14);
+			margin:0;
+			}
+		}
+	}
 
 //	$MQ MEDIAQUERIES
 @media screen and (min-width:em(370)){

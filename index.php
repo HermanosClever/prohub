@@ -1,9 +1,9 @@
 <?php
+
 $page = 'project_home';
-$client = 'Cliente';
-$project = "Proyecto";
-$path = '';
- ?>
+include 'incl/_settings.php';
+
+?>
 <!DOCTYPE html>
 <?php include 'incl/_cc.php'; ?>
 	<head>

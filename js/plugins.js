@@ -24,7 +24,7 @@
 // Place any jQuery/helper plugins in here.
 //@codekit-append 'plugins/jquery.width_snitch.min.js';
 //@codekit-append 'plugins/moment-with-langs.min.js';
-// @ codekit-append 'plugins/jquery.paperfold.js';
+//@codekit-append 'plugins/jquery.label_better.min.js';
 // @ codekit-append 'plugins/chosen.jquery.min.js';
 // @ codekit-append 'plugins/jquery.placeholder.js';
 // @ codekit-append 'plugins/parsley.js';
