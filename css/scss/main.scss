@@ -268,7 +268,7 @@ body{
 			line-height:em(24,14);
 			padding:0 em(10);
 			text-decoration:none;
-			@include transition(.5s);
+			@include transition(.1s);
 			&:hover{
 				background:$c_btn_hover;
 				color:$c_white;
@@ -444,11 +444,12 @@ body{
 		margin-left:-5%;
 		&.future{
 			.wrapper{
+				margin:0;
 				&:before{
 					left:50%;
 					margin-left:#{ ($m_line / -2) }px;
 					}
-				&:after{left:2.5%;}
+				&:after{left:0;}
 				}
 			}
 		}
