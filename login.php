@@ -1,9 +1,24 @@
 <?php
+session_start();
+include 'incl/_config.php';
 
-$page = 'login _dev';
-include 'incl/_settings.php';
+if (array_key_exists($_SESSION["logged"],$user)) { //// check if user is logged or not
+	header("Location: index.php");
+
+} else { //// if not logged show login form
+
+if ( $_POST['ac'] == 'log' ) {
+	if ( $user['pass'] == $_POST['ph_password'] ) {
+		$_SESSION["logged"] = 'pass';
+		$error_class = '';
+	} else {
+		$error_class = ' error';
+	};
+};
 
 ?>
+
+<?php $page = 'login _dev'; ?>
 <!DOCTYPE html>
 <?php include 'incl/_cc.php'; ?>
 	<head>
@@ -19,9 +34,13 @@ include 'incl/_settings.php';
 			<section class="project_login">
 				<div class="wrapper">
 					<form action="" class="form" method="post" novalidate>
-						<div class="row">
-							<label class="label" for="ph_password">Type password ad hit enter</label>
-							<input type="password" class="field field_password" name="ph_password" id="ph_password" data-new-placeholder="Type password ad hit enter" placeholder="Type password ad hit enter" />
+
+						<input type="hidden" name="ac" value="log">
+
+						<div class="row<?php echo $error_class; ?>">
+							<label class="label" for="ph_password">Type password and hit enter</label>
+							<input type="password" class="field field_password" name="ph_password" id="ph_password" data-new-placeholder="Type password and hit enter" placeholder="Type password and hit enter" />
+							<p class="error_mssg">Incorrect password!</p>
 						</div>
 						<div class="row client">
 							<h2 class="title"><?php echo $client; ?></h2>
@@ -34,8 +53,21 @@ include 'incl/_settings.php';
 			<?php include 'incl/_footer.php'; ?>
 
 		</div>
+
+
 		<?php include 'incl/_js.php'; ?>
 		<?php include 'incl/_tag.php'; ?>
 
 	</body>
 </html>
+
+<?php
+};
+?>
+
+
+
+
+
+
+

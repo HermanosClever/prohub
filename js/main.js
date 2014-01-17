@@ -59,6 +59,12 @@ $(document).ready(function() {
 			offset:20,
 			hidePlaceholderOnFocus: true
 		});
+
+		if ( $formulario.find('.row.error').length > 0 ){
+			$formulario.find('.error_mssg').css({
+				top: -10
+			}).animate({ top: 40}, 300);
+		}
 	}
 
 	//

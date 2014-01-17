@@ -1,7 +1,9 @@
 <?php
+session_start();
+include 'incl/_config.php';
+check_logged();
 
 $page = 'project_home';
-include 'incl/_settings.php';
 
 ?>
 <!DOCTYPE html>
@@ -64,7 +66,7 @@ include 'incl/_settings.php';
 
 					<ul class="timeline">
 
-						<li class="task">
+						<!--li class="task">
 							<div class="status pending">Pending</div>
 							<div class="date js_timestamp">
 								<time class="time" datetime="15-01-2014">15-01-2014</time>
@@ -78,7 +80,7 @@ include 'incl/_settings.php';
 									<li class="action"><a href="">[Layervault] Repositorio</a></li>
 								</ul>
 							</div>
-						</li>
+						</li-->
 						<li class="task">
 							<div class="status checked">Ok</div>
 							<div class="date js_timestamp">
@@ -100,8 +102,8 @@ include 'incl/_settings.php';
 			</section>
 
 			<?php include 'incl/_footer.php'; ?>
-
 		</div>
+
 		<?php include 'incl/_js.php'; ?>
 		<?php include 'incl/_tag.php'; ?>
 
