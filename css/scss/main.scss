@@ -166,7 +166,6 @@ body{
 		&:hover{color:$c_btn_hover;}
 		}
 	.session{
-		display:none;
 		.logout{
 			background:$c_tl;
 			color:$c_btn_timetravel;
@@ -174,6 +173,11 @@ body{
 			margin-top:em(10);
 			position:static;
 			}
+		}
+	}
+.login{
+	#footer{
+		.session{display:none;}
 		}
 	}
 
@@ -498,7 +502,7 @@ body{
 @media screen and (min-width:em(600)){
 	#footer{
 		.session{
-			margin-top:em(26/-2);
+			margin-top:em((26+10)/-2);
 			position:absolute;
 			top:50%;
 			right:em(20);
@@ -507,6 +511,20 @@ body{
 			}
 		}
 	}
+	.csstransforms{
+		#footer{
+			.session{
+				margin:0;
+				-webkit-transform: translate(0,-50%);
+				-moz-transform: translate(0,-50%);
+				-ms-transform: translate(0,-50%);
+				-o-transform: translate(0,-50%);
+				transform: translate(0,-50%);
+				}
+			}
+
+	}
+
 }
 
 @media screen and (min-width:em(536)) {

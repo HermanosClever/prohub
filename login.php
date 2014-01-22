@@ -2,11 +2,6 @@
 session_start();
 include 'incl/_config.php';
 
-if (array_key_exists($_SESSION["logged"],$user)) { //// check if user is logged or not
-	header("Location: index.php");
-
-} else { //// if not logged show login form
-
 if ( $_POST['ac'] == 'log' ) {
 	if ( $user['pass'] == $_POST['ph_password'] ) {
 		$_SESSION["logged"] = 'pass';
@@ -15,6 +10,13 @@ if ( $_POST['ac'] == 'log' ) {
 		$error_class = ' error';
 	};
 };
+
+if (array_key_exists($_SESSION["logged"],$user)) { //// check if user is logged or not
+	header("Location: index.php");
+
+} else { //// if not logged show login form
+
+
 
 ?>
 

@@ -3,7 +3,7 @@ session_start();
 include 'incl/_config.php';
 check_logged();
 
-$page = 'project_home';
+$page = 'project_page';
 
 ?>
 <!DOCTYPE html>
