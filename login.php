@@ -20,7 +20,7 @@ if (array_key_exists($_SESSION["logged"],$user)) { //// check if user is logged 
 
 ?>
 
-<?php $page = 'login _dev'; ?>
+<?php $page = 'login'; ?>
 <!DOCTYPE html>
 <?php include 'incl/_cc.php'; ?>
 	<head>

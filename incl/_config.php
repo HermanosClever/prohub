@@ -1,5 +1,6 @@
 <?php
 
+$lang = 'es';
 $client = 'Cliente';
 $project = "Proyecto";
 $path = '';

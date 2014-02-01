@@ -66,10 +66,10 @@ $page = 'project_page';
 
 					<ul class="timeline">
 
-						<!--li class="task">
+						<li class="task">
 							<div class="status pending">Pending</div>
 							<div class="date js_timestamp">
-								<time class="time" datetime="15-01-2014">15-01-2014</time>
+								<time class="time" datetime="01-02-2014 15:45">15-01-2014</time>
 							</div>
 							<div class="task_data">
 								<h2 class="title">Entrega de prototipos</h2>
@@ -80,7 +80,7 @@ $page = 'project_page';
 									<li class="action"><a href="">[Layervault] Repositorio</a></li>
 								</ul>
 							</div>
-						</li-->
+						</li>
 						<li class="task">
 							<div class="status checked">Ok</div>
 							<div class="date js_timestamp">

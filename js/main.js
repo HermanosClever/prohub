@@ -1,6 +1,9 @@
 $(document).ready(function() {
-	var $body, $formulario, $task, date_text, timestamp_text, $time_buttons, $future_timeline;
+	var $body, $formulario, $task, date_text, timestamp_text, $time_buttons, $future_timeline, lang;
+
+	lang = $('html').attr('lang');
 	$body	= $('body');
+
 	// Responsive snitch
 	if ( $body.hasClass('_dev') ) {
 		$body.width_snitch({style:{}});
@@ -14,11 +17,11 @@ $(document).ready(function() {
 	$task.find('.js_timestamp').each(function(index, el) {
 		date_text = $(this).find('.time').attr('datetime');
 
-		timestamp_text = moment( date_text , 'DD-MM-YYYY' ).lang('es').fromNow();
+		timestamp_text = moment( date_text , 'DD-MM-YYYY hh:mm' ).lang( lang ).fromNow();
 		$(this).append( '<div class="timestamp">' + timestamp_text + '</div>' );
 
 
-		$(this).find('.time').text( moment( date_text , 'DD-MM-YYYY' ).lang('es').format('dddd D [de] MMMM') );
+		$(this).find('.time').text( moment( date_text , 'DD-MM-YYYY' ).lang( lang ).format('dddd D [de] MMMM') );
 
 	});
 
